@@ -25,6 +25,7 @@
   box-sizing: border-box;
   border: none;
   color: var(--color-darkbeige);
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
