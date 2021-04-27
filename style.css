@@ -143,14 +143,15 @@ body .images .images_box {
   width: 100%;
   height: auto;
   display: flex;
+  padding: var(--layout-small) 0;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .images .images_box .img_container {
-  width: 22%;
-  height: 300px;
+  width: auto;
+  height: 150px;
   margin: var(--layout-small) var(--layout-small);
   overflow: hidden;
   display: flex;
@@ -158,7 +159,7 @@ body .images .images_box {
 }
 
 .images_box .img_container img {
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  width: auto;
   display: block;
 }
