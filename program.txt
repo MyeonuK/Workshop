@@ -1,0 +1,34 @@
+다음 Program 화면
+
+4월 30일 (금)
+-------------------------------------
+이거 아래 내용 표로
+10:00~10:30  환영 인사 
+             이중욱 (전남대학교)
+
+- Oral Presentation
+10:30~10:55 [Invited Talk 1] 이중욱 교수 (전남대학교)
+            전력 산업 응용을 위한 테라헤르츠파 분광 기술
+10:55~11:20 [Invited Talk 2] 박영미 교수 (인천대학교)
+            Variable metallic nanogaps for electromagnetic control 
+            in quantum regime
+11:20~11:45 [Invited Talk 3] 송호진 교수 (Postech)
+            THz 전력 증폭기 설계
+11:45~12:10 [Invited Talk 4] 장재형 교수 (GIST)
+            지중송전선 부식 및 비금속 부품의 비파괴 검사를 위한 
+            테라헤르츠파 분광/이미징 기술 기초 연구 
+
+12:10~13:30 점심 식사
+
+13:30~14:30  Poster Presentation
+
+
+P-1 여기서부터 논문들인데 pdf링크 따주는식으로
+제목 
+저자 (소속)
+P-2
+P-3
+
+-프로그램 준비 및 문의
+----------------------------------------
+leejujc@chonnam.ac.kr

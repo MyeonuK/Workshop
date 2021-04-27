@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Workshop</title>
+    <script src="src/main.js"></script>
   </head>
   <body>
     <header>
@@ -16,57 +17,157 @@
     </header>
 
     <nav class="menu">
-      <button class="nav_btn" onclick="showPage('home')">Home</button>
-      <button class="nav_btn" onclick="showPage('program')">Program</button>
-      <button class="nav_btn" onclick="showPage('program')">Program</button>
+      <button class="nav_btn" id="home_btn" onclick="showPage('home')">
+        Home
+      </button>
+      <button class="nav_btn" id="program_btn" onclick="showPage('program')">
+        Program
+      </button>
+      <button class="nav_btn" id="test_btn">Test</button>
     </nav>
 
-    <div class="content">
-      <section class="overview">
-        <div class="content_title">Overview</div>
-        <p class="content_description">
-          “2021년 전력 산업 활용을 위한 테라헤르츠파 기술 워크숍”은 한전
-          기초연구 과제에서의 테라헤르츠파 기술 성과를 공유하고 전력 산업으로의
-          활용 가능성 및 연구 성과 확산을 모색하기 위한 자리입니다.
-        </p>
-      </section>
-      <section class="location">
-        <div class="content_title">Location and Date</div>
-        <p class="content_description">
-          장소: Zoom을 이용한 비대면 워크숍<br /><br />일시: 2021년 4월 30일<br /><br />Zoom
-          ID & PW:
-        </p>
-      </section>
-      <section class="host_info">
-        <div class="content_title">Hosted by</div>
-        <p class="content_description">
-          Terahertz Photonics Laboratory (Chonnam National University)<br /><br />
-          Nano-Ultrafast Phenomena Laboratory (Incheon National University)<br /><br />
-          (GIST, 장재형 교수님)<br />(포항공대, 송호진 교수님)<br />(인천대,
-          박영미 교수님)
-        </p>
+    <div class="page_div" id="home">
+      <div class="content">
+        <section class="overview">
+          <div class="title">Overview</div>
+          <div class="container">
+            “2021년 전력 산업 활용을 위한 테라헤르츠파 기술 워크숍”은 한전
+            기초연구 과제에서의 테라헤르츠파 기술 성과를 공유하고 전력
+            산업으로의 활용 가능성 및 연구 성과 확산을 모색하기 위한 자리입니다.
+          </div>
+        </section>
+        <section class="location">
+          <div class="title">Location and Date</div>
+          <div class="container">
+            장소: Zoom을 이용한 비대면 워크숍<br /><br />일시: 2021년 4월
+            30일<br /><br />Zoom ID & PW:
+          </div>
+        </section>
+        <section class="host_info">
+          <div class="title">Hosted by</div>
+          <div class="container">
+            <div class="item">
+              <p class="title">Terahertz Photonics Laboratory</p>
+              <p>Chonnam National University</p>
+            </div>
+            <div class="item">
+              <p class="title">Nano-Ultrafast Phenomena Laboratory</p>
+              <p>Incheon National University</p>
+            </div>
+            <div class="item">
+              <p class="title">장재형 교수님</p>
+              <p>GIST</p>
+            </div>
+            <div class="item">
+              <p class="title">송호진 교수님</p>
+              <p>포항공대</p>
+            </div>
+            <div class="item">
+              <p class="title">박영미 교수님</p>
+              <p>인천대</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="images">
+        <div class="images_title">Photos</div>
+        <div class="images_box">
+          <span class="img_container">
+            <img src="images/strawberry.jpeg" alt="delicious potato" />
+          </span>
+          <span class="img_container">
+            <img src="images/vegitables.jpeg" alt="vegitables" />
+          </span>
+          <span class="img_container">
+            <img src="images/writing.jpeg" alt="writing" />
+          </span>
+          <span class="img_container">
+            <img src="images/wishlist.jpeg" alt="wishlist" />
+          </span>
+          <span class="img_container">
+            <img src="images/oranges.jpeg" alt="oranges" />
+          </span>
+        </div>
       </section>
     </div>
 
-    <section class="images">
-      <div class="images_title">Photos</div>
-      <div class="images_box">
-        <span class="img_container">
-          <img src="images/strawberry.jpeg" alt="delicious potato" />
-        </span>
-        <span class="img_container">
-          <img src="images/vegitables.jpeg" alt="vegitables" />
-        </span>
-        <span class="img_container">
-          <img src="images/writing.jpeg" alt="writing" />
-        </span>
-        <span class="img_container">
-          <img src="images/wishlist.jpeg" alt="wishlist" />
-        </span>
-        <span class="img_container">
-          <img src="images/oranges.jpeg" alt="oranges" />
-        </span>
+    <div class="page_div" id="program" style="display: none">
+      <div class="content">
+        <section class="schedule">
+          <div class="title">4월 30일 (월)</div>
+          <div class="container">
+            <table class="schedule_table">
+              <tr>
+                <td>10:30 ~ 10:55</td>
+                <td>
+                  <b>[Invited Talk 1] 이중욱 교수 (전남대학교)</b><br />전력
+                  산업 응용을 위한 테라헤르츠파 분광 기술
+                </td>
+              </tr>
+              <tr>
+                <td>10:55 ~ 11:20</td>
+                <td>
+                  <b>[Invited Talk 2] 박영미 교수 (인천대학교)</b><br />Variable
+                  metallic nanogaps for electromagnetic control in quantum
+                  regime
+                </td>
+              </tr>
+              <tr>
+                <td>11:20 ~ 11:45</td>
+                <td>
+                  <b>[Invited Talk 3] 송호진 교수 (Postech)</b><br />THz 전력
+                  증폭기 설계
+                </td>
+              </tr>
+              <tr>
+                <td>11:45 ~ 12:10</td>
+                <td>
+                  <b>[Invited Talk 4] 장재형 교수 (GIST)</b><br />지중송전선
+                  부식 및 비금속 부품의 비파괴 검사를 위한 테라헤르츠파
+                  분광/이미징 기술 기초 연구
+                </td>
+              </tr>
+              <tr>
+                <td>12:10 ~ 13:30</td>
+                <td>점심 식사</td>
+              </tr>
+              <tr>
+                <td>13:30 ~ 14:30</td>
+                <td>Poster Presentation</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section class="download">
+          <div class="title">논문 다운로드</div>
+          <div class="container">
+            <div class="item">
+              <p class="title"><a href="home.txt" download>Here I am</a></p>
+              <p>저자: 이지은</p>
+            </div>
+            <div class="item">
+              <p class="title">
+                <a href="home.txt" download>Singing till the end</a>
+              </p>
+              <p>저자: 이지은</p>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="title">프로그램 문의</div>
+          <div class="container">
+            <div class="item">
+              <p class="title">email</p>
+              <p>gusdn0217@gmail.com</p>
+            </div>
+            <div class="item">
+              <p class="title">phone</p>
+              <p>010-9441-4876</p>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </div>
   </body>
 </html>
