@@ -15,7 +15,7 @@
   /* fonr size */
   --font-large: 40px;
   --font-medium: 20px;
-  --font-small: 14px;
+  --font-small: 16px;
 
   /* layout */
   --border-thickness: 2px;
@@ -92,7 +92,7 @@ body .menu .nav_btn:last-child {
 }
 
 body .page_div {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ section .container .item:first-child {
 
 .container .item .title {
   padding-bottom: var(--layout-small);
-  font-size: calc(var(--font-small) * 1.2);
+  font-size: calc(var(--font-small) * 1.1);
   font-weight: bold;
 }
 
