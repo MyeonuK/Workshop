@@ -5,6 +5,7 @@
   --color-grey: #363636;
   --color-darkgrey: #1b1b1b;
   --color-beige: #faebd7;
+  --color-lightbeige: #fff7ee;
   --color-darkbeige: #674e4e;
   --color-darkbeige-t: #674e4e5b;
   /* layout size */
@@ -213,4 +214,17 @@ body .page_div .images {
   border-right: none;
   padding-left: calc(var(--layout-small) * 1.5);
   text-align: left;
+}
+
+.schedule_table tr:nth-child(2) td:first-child {
+  background-color: var(--color-lightbeige);
+  border-top: 2px solid var(--color-darkbeige-t);
+  border-right: none;
+  font-weight: bold;
+}
+
+.schedule_table tr:nth-child(7) {
+  background-color: var(--color-lightbeige);
+  border-top: 2px solid var(--color-darkbeige-t);
+  border-bottom: 2px solid var(--color-darkbeige-t);
 }
