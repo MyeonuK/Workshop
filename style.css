@@ -43,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+* a:hover {
+  color: rgb(175, 100, 15);
+}
+
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -58,11 +62,12 @@ body header {
   align-items: center;
 }
 
-body header h1 {
+body header .title {
   width: auto;
   height: auto;
   font-size: var(--font-large);
   text-align: center;
+  font-family: "Do Hyeon", sans-serif;
 }
 
 body .menu {
