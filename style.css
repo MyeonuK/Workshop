@@ -93,6 +93,11 @@ body .menu .nav_btn {
   border-left: 2px solid var(--color-beige);
 }
 
+body .menu .nav_btn:first-child {
+  background-color: var(--color-beige);
+  color: var(--color-darkbeige);
+}
+
 body .menu .nav_btn:last-child {
   border-right: 2px solid var(--color-beige);
 }
